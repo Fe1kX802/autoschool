@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Автошкола АвтоЛайф - обучение вождению в Санкт-Петербурге. Курсы на категории A, B, C, D. Доступные цены, опытные инструкторы, современный автопарк.">
+    <meta name="keywords" content="автошкола, обучение вождению, права, водительское удостоверение, вождение, Санкт-Петербург, СПб">
+    <meta name="theme-color" content="#007bff">
+    <title>Автошкола АвтоЛайф - сеть автошкол в Санкт-Петербурге</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo" style="flex:1; display:flex; align-items:center;">
+                    <a href="index.html">
+                        <span class="logo-name" style="font-size:1.7rem;">Автошкола АвтоЛайф</span>
+                        <span class="logo-tagline">Сеть современных автошкол в Санкт-Петербурге</span>
+                    </a>
+                </div>
+                <div class="contacts" style="flex:1; align-items:flex-end; text-align:right;">
+                    <div class="phone">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="phone-numbers">
+                            <a href="tel:+79692005805">+7 (969) 200-58-05</a>
+                        </div>
+                    </div>
+                    <div class="time-work">Режим работы: с 9:00 до 21:00</div>
+                </div>
+                <button class="menu-toggle" aria-label="Открыть меню"><i class="fas fa-bars"></i></button>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#programs">Программы обучения</a></li>
+                    <li><a href="online-learning.html">Онлайн-обучение</a></li>
+                    <li><a href="education-classes.html">Учебные классы</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- Мобильное меню -->
+            <div class="mobile-menu" id="mobileMenu">
+                <button class="close-mobile-menu" aria-label="Закрыть меню"><i class="fas fa-times"></i></button>
+                <ul>
+                    <li><a href="#programs">Программы обучения</a></li>
+                    <li><a href="online-learning.html">Онлайн-обучение</a></li>
+                    <li><a href="education-classes.html">Учебные классы</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="menu-overlay" id="menuOverlay"></div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Сеть современных автошкол в Санкт-Петербурге</h1>
+                <h2>Реально и эффективно обучаем, а не создаем видимость!</h2>
+                <div class="categories">
+                    <span>Категории:</span>
+                    <a href="category-a.html">A</a>
+                    <a href="category-a1.html">A1</a>
+                    <a href="category-b.html">B</a>
+                    <a href="category-be.html">BE</a>
+                </div>
+                <div class="formats">
+                    <span>Формат:</span>
+                    <a href="offline-learning.html">очно</a>
+                    <a href="online-learning.html">онлайн</a>
+                </div>
+                <p class="hero-price">Начните обучение всего за 4 900 рублей!</p>
+                <div class="hero-buttons">
+                    <a href="#trial" class="btn btn-secondary">Бесплатный пробный урок</a>
+                    <a href="#signup" class="btn btn-primary">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Официальное обучение</h3>
+                    <p>Имеем действующую государственную образовательную лицензию с 2011 года и свежее заключение ГИБДД о соответствии учебно-материальной базы.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Удобное расположение</h3>
+                    <p>Изучайте теорию онлайн или в одном из наших оборудованных учебных классов рядом с метро. Занимайтесь вождением в любом удобном месте недалеко от дома, учебы или работы.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>Инструкторы-профи</h3>
+                    <p>Занятия по вождению проводят 30 опытных инструкторов с большим стажем преподавания, в том числе 5 инструкторов-девушек.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-car"></i></div>
+                    <h3>Собственный автопарк</h3>
+                    <p>Наш парк транспорта насчитывает 15 автомобилей на МКПП/АКПП, 6 мотоциклов и 2 прицепа.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2 class="section-title">Программы обучения и стоимость</h2>
+            <div class="program-tabs">
+                <button class="tab-btn active" data-tab="car">Автомобиль</button>
+                <button class="tab-btn" data-tab="moto">Мотоцикл</button>
+            </div>
+            <div class="program-content active" id="car-content" style="display:block;">
+                <div class="price-cards">
+                    <div class="price-card">
+                        <div class="price-header">
+                            <h3>Категория B</h3>
+                            <div class="price-value">59 900 ₽</div>
+                            <div class="price-discount">(<strong>52 113 ₽</strong> с налоговым вычетом)</div>
+                        </div>
+                        <div class="price-subheader">
+                            <strong>B-Basic</strong>
+                            <p>Теория: онлайн или очно</p>
+                            <p>Вождение: механика или автомат</p>
+                        </div>
+                        <ul class="price-features">
+                            <li>Полный авторский курс теоретических занятий - <strong>134 часа</strong></li>
+                            <li>Полный курс практических занятий - <strong>56 часов</strong></li>
+                            <li>Учебная литература в подарок</li>
+                            <li>Занятия по вождению в удобные дни и время в любом районе СПб</li>
+                            <li>Сдача экзаменов по теории и вождению в автошколе</li>
+                            <li>Выдача свидетельства государственного образца об окончании автошколы</li>
+                            <li>Подготовка и организованная подача документов в ГИБДД</li>
+                            <li>Сопровождение на госэкзамене в ГИБДД</li>
+                        </ul>
+                        <div class="price-benefits">
+                            <ul>
+                                <li>Без дополнительных и скрытых платежей</li>
+                                <li>Возможность оплаты маткапиталом</li>
+                                <li>Возврат 13% стоимости за счет налогового вычета</li>
+                                <li>Поэтапная оплата, первый платеж всего 4 900 ₽</li>
+                                <li>Беспроцентная рассрочка от Т-банка и автошколы</li>
+                            </ul>
+                        </div>
+                        <a href="#signup" class="btn btn-primary">Записаться →</a>
+                    </div>
+                    
+                    <div class="price-card featured">
+                        <div class="price-header">
+                            <h3>Категория B</h3>
+                            <div class="price-value">69 900 ₽</div>
+                            <div class="price-discount">(<strong>60 813 ₽</strong> с налоговым вычетом)</div>
+                        </div>
+                        <div class="price-subheader">
+                            <strong>B-Optima</strong>
+                            <p>Теория: онлайн или очно</p>
+                            <p>Вождение: механика или автомат</p>
+                        </div>
+                        <ul class="price-features">
+                            <li>Полный авторский курс теоретических занятий - <strong>134 часа</strong></li>
+                            <li>Расширенный курс практических занятий - <strong>60 часов</strong></li>
+                            <li>Учебная литература в подарок</li>
+                            <li>Занятия по вождению в удобные дни и время в любом районе СПб</li>
+                            <li>Сдача экзаменов по теории и вождению в автошколе</li>
+                            <li>Выдача свидетельства государственного образца об окончании автошколы</li>
+                            <li>Подготовка и организованная подача документов в ГИБДД</li>
+                            <li>Сопровождение на госэкзамене в ГИБДД</li>
+                            <li>Изучение всех маршрутов для сдачи экзамена</li>
+                            <li>Содействие в прохождении водительской медкомиссии</li>
+                            <li>Бесплатная пересдача теории и практики в автошколе</li>
+                            <li>Дополнительные часы вождения с инструктором</li>
+                            <li>Дополнительный курс «Усиленная парковка»</li>
+                            <li>2 дополнительных занятия по обслуживанию автомобиля</li>
+                        </ul>
+                        <div class="price-benefits">
+                            <ul>
+                                <li>Без дополнительных и скрытых платежей</li>
+                                <li>Возможность оплаты маткапиталом</li>
+                                <li>Возврат 13% стоимости за счет налогового вычета</li>
+                                <li>Поэтапная оплата, первый платеж всего 4 900 ₽</li>
+                                <li>Беспроцентная рассрочка от Т-банка и автошколы</li>
+                            </ul>
+                        </div>
+                        <a href="#signup" class="btn btn-primary">Записаться →</a>
+                    </div>
+                    
+                    <div class="price-card">
+                        <div class="price-header">
+                            <h3>Категория B</h3>
+                            <div class="price-value">89 900 ₽</div>
+                            <div class="price-discount">(<strong>78 213 ₽</strong> с налоговым вычетом)</div>
+                        </div>
+                        <div class="price-subheader">
+                            <strong>B-Maxima</strong>
+                            <p>Теория: онлайн или очно</p>
+                            <p>Вождение: механика или автомат</p>
+                        </div>
+                        <ul class="price-features">
+                            <li>Полный авторский курс теоретических занятий - <strong>134 часа</strong></li>
+                            <li>Расширенный курс практических занятий - <strong>64 часа</strong></li>
+                            <li>Учебная литература в подарок</li>
+                            <li>Занятия по вождению в удобные дни и время в любом районе СПб</li>
+                            <li>Сдача экзаменов по теории и вождению в автошколе</li>
+                            <li>Выдача свидетельства государственного образца об окончании автошколы</li>
+                            <li>Подготовка и организованная подача документов в ГИБДД</li>
+                            <li>Сопровождение на госэкзамене в ГИБДД</li>
+                            <li>Изучение всех маршрутов для сдачи экзамена</li>
+                            <li>Содействие в прохождении водительской медкомиссии</li>
+                            <li>Бесплатная пересдача теории и практики в автошколе</li>
+                            <li>Все занятия с персональным инструктором</li>
+                            <li>Дополнительные часы вождения с инструктором</li>
+                            <li>Дополнительный курс «Усиленная парковка»</li>
+                            <li>Дополнительный курс «Экстремальное вождение»</li>
+                            <li>2 дополнительных занятия по обслуживанию автомобиля</li>
+                            <li>Расширенная теоретическая подготовка по ПДД</li>
+                        </ul>
+                        <div class="price-benefits">
+                            <ul>
+                                <li>Без дополнительных и скрытых платежей</li>
+                                <li>Возможность оплаты маткапиталом</li>
+                                <li>Возврат 13% стоимости за счет налогового вычета</li>
+                                <li>Поэтапная оплата, первый платеж всего 4 900 ₽</li>
+                                <li>Беспроцентная рассрочка от Т-банка и автошколы</li>
+                            </ul>
+                        </div>
+                        <a href="#signup" class="btn btn-primary">Записаться →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="program-content" id="moto-content" style="display:none;">
+                <div class="price-cards">
+                    <div class="price-card">
+                        <div class="price-header">
+                            <h3>Категория A</h3>
+                            <div class="price-value">20 000 ₽</div>
+                            <div class="price-discount">(<strong>17 400 ₽</strong> с налоговым вычетом)</div>
+                        </div>
+                        <div class="price-subheader">
+                            <strong>A-Basic</strong>
+                            <p>Теория: онлайн или очно</p>
+                        </div>
+                        <ul class="price-features">
+                            <li>Полный курс теоретических занятий - <strong>108 часов</strong></li>
+                            <li>Практическое вождение - <strong>18 часов</strong></li>
+                            <li>Учебная литература в подарок</li>
+                            <li>Доступ к онлайн-платформе 24/7</li>
+                            <li>Внутренние экзамены</li>
+                            <li>Консультации преподавателей</li>
+                        </ul>
+                        <div class="price-benefits">
+                            <ul>
+                                <li>Без дополнительных и скрытых платежей</li>
+                                <li>Возврат 13% стоимости за счет налогового вычета</li>
+                                <li>Поэтапная оплата, первый платеж всего 5 000 ₽</li>
+                            </ul>
+                        </div>
+                        <a href="#signup" class="btn btn-primary">Записаться →</a>
+                    </div>
+                    
+                    <div class="price-card featured">
+                        <div class="price-header">
+                            <h3>Категория A</h3>
+                            <div class="price-value">25 000 ₽</div>
+                            <div class="price-discount">(<strong>21 750 ₽</strong> с налоговым вычетом)</div>
+                        </div>
+                        <div class="price-subheader">
+                            <strong>A-Optima</strong>
+                            <p>Теория: онлайн или очно</p>
+                        </div>
+                        <ul class="price-features">
+                            <li>Полный курс теоретических занятий - <strong>108 часов</strong></li>
+                            <li>Расширенный курс практического вождения - <strong>20 часов</strong></li>
+                            <li>Учебные материалы в подарок</li>
+                            <li>Доступ к онлайн-платформе 24/7</li>
+                            <li>Внутренние экзамены</li>
+                            <li>Индивидуальный график обучения</li>
+                            <li>Дополнительные часы на отработку сложных элементов</li>
+                        </ul>
+                        <div class="price-benefits">
+                            <ul>
+                                <li>Без дополнительных и скрытых платежей</li>
+                                <li>Возврат 13% стоимости за счет налогового вычета</li>
+                                <li>Поэтапная оплата, первый платеж всего 5 000 ₽</li>
+                                <li>Ускоренное обучение за 1-1,5 месяца</li>
+                            </ul>
+                        </div>
+                        <a href="#signup" class="btn btn-primary">Записаться →</a>
+                    </div>
+                    
+                    <div class="price-card">
+                        <div class="price-header">
+                            <h3>Категория A</h3>
+                            <div class="price-value">35 000 ₽</div>
+                            <div class="price-discount">(<strong>30 450 ₽</strong> с налоговым вычетом)</div>
+                        </div>
+                        <div class="price-subheader">
+                            <strong>A-Maxima</strong>
+                            <p>Теория: онлайн или очно</p>
+                        </div>
+                        <ul class="price-features">
+                            <li>Полный курс теоретических занятий - <strong>108 часов</strong></li>
+                            <li>Расширенный курс практического вождения - <strong>25 часов</strong></li>
+                            <li>Премиальные учебные материалы</li>
+                            <li>Доступ к онлайн-платформе 24/7</li>
+                            <li>Внутренние экзамены</li>
+                            <li>Индивидуальный график обучения</li>
+                            <li>Персональный инструктор</li>
+                            <li>Дополнительный курс по экстремальному вождению</li>
+                            <li>Сопровождение на экзамен в ГИБДД</li>
+                        </ul>
+                        <div class="price-benefits">
+                            <ul>
+                                <li>Без дополнительных и скрытых платежей</li>
+                                <li>Возврат 13% стоимости за счет налогового вычета</li>
+                                <li>Поэтапная оплата, первый платеж всего 5 000 ₽</li>
+                                <li>VIP-сопровождение на протяжении всего обучения</li>
+                            </ul>
+                        </div>
+                        <a href="#signup" class="btn btn-primary">Записаться →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы наших учеников</h2>
+            <div class="reviews-slider">
+                <div class="review-card">
+                    <div class="review-text">
+                        <p>Спасибо огромное автошколе АвтоЛайф. Сдала с первого раза. Отдельное спасибо Ирине, которая вела у нас теорию. Она замечательный учитель, всё подробно объясняла нам, делясь своим большим опытом.</p>
+                        <p>Отдельное спасибо Игорю - инструктору по вождению! Спасибо большое за ваше терпение и доброту!</p>
+                    </div>
+                    <div class="review-author">
+                        <div class="author-image">
+                            <img src="images/review1.jpg" alt="Ирина К." class="img-placeholder">
+                        </div>
+                        <div class="author-info">
+                            <h4>Ирина К.</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-text">
+                        <p>Спасибо большое автошколе АвтоЛайф и преподавателям за прекрасные уроки. Было все понятно и хорошо рассказано. И отдельное спасибо Артёму нашему старшему инструктору по вождению. С самого первого занятия объяснил все очень хорошо. С ним было приятно проводить занятие.</p>
+                    </div>
+                    <div class="review-author">
+                        <div class="author-image">
+                            <img src="images/review2.jpg" alt="Алена П." class="img-placeholder">
+                        </div>
+                        <div class="author-info">
+                            <h4>Алена П.</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-text">
+                        <p>Отличная автошкола, преподаватели профессиональны своего дела. Особенно хочется отметить Андрея, преподавателя по практике. Многому вас научит, спокойно, а главное понятно всё объяснит, уделит должное внимание каждому ученику. Всем буду его советовать.</p>
+                    </div>
+                    <div class="review-author">
+                        <div class="author-image">
+                            <img src="images/review3.jpg" alt="Даниил П." class="img-placeholder">
+                        </div>
+                        <div class="author-info">
+                            <h4>Даниил П.</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-navigation">
+                <button class="review-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="review-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Ответы на популярные вопросы</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Что входит в стоимость обучения?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>В стоимость входят теоретические занятия в школе или дистанционно, занятия с инструктором по выбранному тарифу, бензин, подготовка и подача документов в ГИБДД, сдача экзамена в ГИБДД на автомобиле, на котором проводилось обучение. Дополнительно потребуется оплатить только госпошлину за выдачу водительского удостоверения.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Каков размер госпошлины за сдачу экзамена в ГИБДД? Надо ли платить ее при пересдаче?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Госпошлина за выдачу водительского удостоверения составляет 2000 рублей, но её можно оплатить через Госуслуги со скидкой 30% (экономия 600 рублей). Оплатить госпошлину необходимо перед сдачей экзамена в ГИБДД. При повторной сдаче (пересдаче) экзамена в ГИБДД госпошлину оплачивать не требуется.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Можно ли сдавать экзамен и получить права категории "В", не обучаясь в автошколе СПб (экстерном)?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Нет. 5 ноября 2014 года вступило в силу постановление Правительства Российской Федерации от 24 октября 2014 года № 1097 «О допуске к управлению транспортными средствами». Постановлением исключается допуск к экзаменам после самостоятельной подготовки.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Какой процент учащихся сдает экзамен с первого раза в Санкт-Петербурге?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>В среднем, с первого раза экзамен успешно проходят около 70% учащихся. Не сдали с первого раза? Это еще не повод для разочарования. Как правило, со 2-3 раза экзамен сдают почти все. Если Вы хорошо усвоили все, что Вам преподавали, и сумели справиться с волнением, то сдать экзамен Вы сможете.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-more">
+                <a href="faq.html" class="btn btn-outline">Смотреть все вопросы и ответы</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="signup">
+        <div class="container">
+            <h2 class="section-title">Запись на обучение</h2>
+            <div class="signup-form">
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Ваш e-mail" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select name="category" required>
+                                <option value="" disabled selected>Выберите категорию</option>
+                                <option value="B">Категория B</option>
+                                <option value="BE">Категория BE</option>
+                                <option value="A">Категория A</option>
+                                <option value="A1">Категория A1</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="location" required>
+                                <option value="" disabled selected>Выберите адрес обучения</option>
+                                <option value="any">Любой адрес обучения</option>
+                                <option value="nevsky1">Невский проспект 1</option>
+                                <option value="nevsky2">Невский проспект 2</option>
+                                <option value="nevsky3">Невский проспект 3</option>
+                                <option value="nevsky4">Невский проспект 4</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-policy">
+                        <label>
+                            <input type="checkbox" name="policy" required>
+                            Нажимая вы соглашаетесь с нашей <a href="privacy.html">политикой конфиденциальности</a>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <span class="logo-name">Автошкола АвтоЛайф</span>
+                    </a>
+                    <p>Сеть современных автошкол в Санкт-Петербурге</p>
+                </div>
+                
+                <div class="footer-nav">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="#programs">Программы обучения</a></li>
+                        <li><a href="online-learning.html">Онлайн-обучение</a></li>
+                        <li><a href="education-classes.html">Учебные классы</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contacts">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+79692005805">+7 (969) 200-58-05</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:fe1kx@icloud.com">fe1kx@icloud.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Центральный офис: г. Санкт-Петербург, Невский проспект 1</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2010-2025 Школа обучения вождению «АвтоЛайф» в Санкт-Петербурге</p>
+                <div class="footer-links">
+                    <a href="about-organization.html">Сведения об организации</a>
+                    <a href="privacy.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixed-contact">
+        <a href="https://t.me/autolife_spb" class="fixed-telegram" target="_blank" style="background-color: #0088cc; color: white;"><i class="fab fa-telegram"></i></a>
+        <a href="tel:+79692005805" class="fixed-phone" style="background-color: #007bff; color: white;"><i class="fas fa-phone"></i></a>
+        <a href="https://wa.me/+79692005805" class="fixed-whatsapp" target="_blank" style="background-color: #25D366; color: white;"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Переключение табов тарифов (автомобиль/мотоцикл)
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const programContents = document.querySelectorAll('.program-content');
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    programContents.forEach(content => content.classList.remove('active'));
+                    const tab = this.getAttribute('data-tab');
+                    document.getElementById(tab + '-content').classList.add('active');
+                });
+            });
+
+            // Мобильное меню
+            const menuToggle = document.querySelector('.menu-toggle');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const menuOverlay = document.getElementById('menuOverlay');
+            const closeMobileMenu = document.querySelector('.close-mobile-menu');
+            function openMobileMenu() {
+                mobileMenu.classList.add('open');
+                menuOverlay.classList.add('active');
+                document.body.classList.add('no-scroll');
+            }
+            function closeMenu() {
+                mobileMenu.classList.remove('open');
+                menuOverlay.classList.remove('active');
+                document.body.classList.remove('no-scroll');
+            }
+            menuToggle.addEventListener('click', openMobileMenu);
+            closeMobileMenu.addEventListener('click', closeMenu);
+            menuOverlay.addEventListener('click', closeMenu);
+        });
+    </script>
+    <script src="images/placeholder.js"></script>
+</body>
+</html> 
